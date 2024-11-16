@@ -38,6 +38,7 @@
   },
   "name":"FROguS",
   "resources":[
+    {"id":{"name":"novoObjeto","path":"objects/novoObjeto/novoObjeto.yy",},},
     {"id":{"name":"Obj_controle","path":"objects/Obj_controle/Obj_controle.yy",},},
     {"id":{"name":"obj_drop","path":"objects/obj_drop/obj_drop.yy",},},
     {"id":{"name":"obj_frogy","path":"objects/obj_frogy/obj_frogy.yy",},},
