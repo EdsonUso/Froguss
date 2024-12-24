@@ -14,3 +14,5 @@ veloc = 1.8;
 vveloc = 0;
 
 hveloc = 0;
+
+audio_play_sound(musiquinha_temporaria, 1, 0 )
