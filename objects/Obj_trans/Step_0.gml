@@ -17,7 +17,7 @@ if (img - img_num > cols + 1)
 else
 {
 	
-	img -= img_vel;
+	img -= img_vel + 2.5;
 	
 	if (img < -4)
 	{

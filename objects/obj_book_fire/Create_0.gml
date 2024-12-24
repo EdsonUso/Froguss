@@ -1,0 +1,1 @@
+magic_spell = global.SpellType.FIRE

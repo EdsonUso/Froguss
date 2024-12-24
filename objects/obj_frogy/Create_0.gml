@@ -6,6 +6,16 @@ cima= 0;
 global.bullets = 6;
 global.life = 3;
 
+//Lista de magias do player 
+spells = [];
+
+//função que irá capturar as magias
+grant_spells = function(magic){
+
+	//adicionando magias a lista de magias
+	array_push(spells, magic)
+}
+
 direc = 0;
 
 grv = 0.36;

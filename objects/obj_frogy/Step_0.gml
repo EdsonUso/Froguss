@@ -106,6 +106,14 @@ var fire
 
 fire = mouse_check_button_pressed(mb_left)
 
+var municao = obj_shoot 
+
+if(array_length(spells) > 0){
+	municao = spells[array_length(spells) - 1];	
+	
+}
+
+
 //criando tiro
 if global.bullets > 0 {
 	
@@ -113,17 +121,10 @@ if (fire)
 	{
 		audio_play_sound(Sound2, 1, 0)
 		global.bullets --;
-	var _tiro = instance_create_layer( obj_varinha.x, obj_varinha.y, "shoot", obj_shoot);
+	var _tiro = instance_create_layer( obj_varinha.x, obj_varinha.y, "shoot", municao);
 	_tiro.speed = 10;
 	_tiro.direction = point_direction(x, y, mouse_x, mouse_y);
 }
 
 } 
-
-
-	
-	
-
-
-
 
