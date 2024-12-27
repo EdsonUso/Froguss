@@ -1,1 +1,1 @@
-game_restart()
+global.life = 0;

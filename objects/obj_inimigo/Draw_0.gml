@@ -8,6 +8,6 @@ gpu_set_fog(false,color,0,0);
    }
    
    if color > 0 {
-	draw_set_color(c_blue); 
+	draw_set_color(c_white); 
 draw_sprite(sprite_index, image_index, x, y); 
    }

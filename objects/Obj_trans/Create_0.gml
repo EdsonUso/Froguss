@@ -17,3 +17,4 @@ img_num = sprite_get_number(spr_quad) - 1;
 destino = Room2;
 
 entrando = true;
+

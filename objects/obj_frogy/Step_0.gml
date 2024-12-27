@@ -98,7 +98,7 @@ if alarm[0] > 0{
 
 ///MORRENDO
 if global.life = 0{
-	game_restart()
+
 	
 }
 

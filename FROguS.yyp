@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"FROguS",
   "resources":[
@@ -46,7 +46,7 @@
     {"id":{"name":"obj_drop","path":"objects/obj_drop/obj_drop.yy",},},
     {"id":{"name":"obj_frogy","path":"objects/obj_frogy/obj_frogy.yy",},},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
-    {"id":{"name":"Obj_jogo","path":"objects/Obj_jogo/Obj_jogo.yy",},},
+    {"id":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},},
     {"id":{"name":"obj_life_1","path":"objects/obj_life_1/obj_life_1.yy",},},
     {"id":{"name":"obj_life_2","path":"objects/obj_life_2/obj_life_2.yy",},},
     {"id":{"name":"obj_life","path":"objects/obj_life/obj_life.yy",},},
@@ -74,6 +74,7 @@
     {"id":{"name":"Sound3","path":"sounds/Sound3/Sound3.yy",},},
     {"id":{"name":"Sound4","path":"sounds/Sound4/Sound4.yy",},},
     {"id":{"name":"Sound6","path":"sounds/Sound6/Sound6.yy",},},
+    {"id":{"name":"Sound8","path":"sounds/Sound8/Sound8.yy",},},
     {"id":{"name":"estela1","path":"sprites/estela1/estela1.yy",},},
     {"id":{"name":"frog_direita","path":"sprites/frog_direita/frog_direita.yy",},},
     {"id":{"name":"frog_esquerda","path":"sprites/frog_esquerda/frog_esquerda.yy",},},
@@ -85,6 +86,7 @@
     {"id":{"name":"nuvem_3","path":"sprites/nuvem_3/nuvem_3.yy",},},
     {"id":{"name":"Sfrogy","path":"sprites/Sfrogy/Sfrogy.yy",},},
     {"id":{"name":"Sparede","path":"sprites/Sparede/Sparede.yy",},},
+    {"id":{"name":"spr_book_destroy","path":"sprites/spr_book_destroy/spr_book_destroy.yy",},},
     {"id":{"name":"spr_book","path":"sprites/spr_book/spr_book.yy",},},
     {"id":{"name":"spr_broken","path":"sprites/spr_broken/spr_broken.yy",},},
     {"id":{"name":"spr_enemy_atk","path":"sprites/spr_enemy_atk/spr_enemy_atk.yy",},},
