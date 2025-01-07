@@ -1,0 +1,30 @@
+name: Notify on Issue Creation
+
+on:
+  issues:
+    types:
+      - opened  # Gatilho para quando uma issue for aberta
+
+jobs:
+  notify-assignee:
+    runs-on: ubuntu-latest  # Utilizando o Ubuntu mais recente para rodar o workflow
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2  # Faz checkout do repositório
+
+      - name: Get assignee of the issue
+        id: get_assignee
+        run: |
+          # Extraímos o nome do responsável pela issue usando a GitHub API
+          ASSIGNEE="${{ github.event.issue.assignee.login }}"
+          echo "Assignee is: $ASSIGNEE"
+          echo "ASSIGNEE=$ASSIGNEE" >> $GITHUB_ENV  # Armazenamos o nome do assignee como variável de ambiente
+
+      - name: Trigger Power Automate flow
+        run: |
+          # Agora que temos o assignee, enviamos uma requisição HTTP para o Power Automate
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -d '{"assignee": "${{ env.ASSIGNEE }}", "issue_number": "${{ github.event.issue.number }}", "repository": "${{ github.repository }}"}' \
+            ${{ secrets.POWER_AUTOMATE_URL }}  # Requisição HTTP para o fluxo do Power Automate
