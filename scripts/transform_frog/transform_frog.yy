@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"transform_frog",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"transform_frog",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

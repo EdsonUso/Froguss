@@ -7,4 +7,8 @@ key_restart = keyboard_check(ord("P"))
 #endregion
 function get_input(){
 
+direita = keyboard_check(ord("D"));
+esquerda = keyboard_check(ord("A"));
+cima = keyboard_check_pressed(vk_space);
+
 }

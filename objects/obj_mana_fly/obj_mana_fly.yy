@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object13",
+  "%Name":"obj_mana_fly",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_frogy","path":"objects/obj_frogy/obj_frogy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object13",
+  "name":"obj_mana_fly",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_shoot_fire",
-    "path":"sprites/spr_shoot_fire/spr_shoot_fire.yy",
+    "name":"spr_mana_fly",
+    "path":"sprites/spr_mana_fly/spr_mana_fly.yy",
   },
   "spriteMaskId":null,
   "visible":true,
